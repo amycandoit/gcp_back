@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: test
+  datasource:
+    url: jdbc:mysql://35.224.59.58:3306/test?serverTimezone=Asia/Seoul
+    username: test
+    password: 1q2w3e4r
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

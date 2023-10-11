@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestApplicationTests {
-
-
-    
+class TestApplicationTests {  
     @Test
     void test() {
         Assertions.assertEquals(1+1, 2);

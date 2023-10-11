@@ -7,6 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class TestApplicationTests {
 
+    
     @Test
     void test() {
         Assertions.assertEquals(1+1, 2);

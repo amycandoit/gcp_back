@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker Image CD
 
 on:
   push:
@@ -26,7 +26,6 @@ jobs:
 
     - name: Test
       run: ./gradlew clean build
-
 
     - name: Build the Docker image
       run: docker build . 

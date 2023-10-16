@@ -11,4 +11,9 @@ class TestApplicationTests {
         Assertions.assertEquals(1+1, 2);
     }
 
+    @Test
+    void test1() {
+        Assertions.assertEquals(1+10,10);
+    }
+
 }
